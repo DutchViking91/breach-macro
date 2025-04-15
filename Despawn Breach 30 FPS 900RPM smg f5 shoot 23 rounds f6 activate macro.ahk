@@ -24,7 +24,7 @@ F6:: ; hotkey to initiate mounting sparrow after firing enough rounds to initiat
     Send, {Click Down}
     Sleep, 370 ; this timer controls how many bullets are fired before mounting
     Send, {Click Up}
-    Sleep, 120 ; time required to complete the ride prompt (500-timer on line 24+26)
+    Sleep, 120 ; time required to complete the ride prompt (500-timer on line 23+25)
     Send, {N up} ; interact/mount sparrow secondary keybind
     Sleep, 1300
     Send, {Click} ; custom keybind for sparrow dodge left, change to whatever your keybind is
