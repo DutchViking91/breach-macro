@@ -20,9 +20,9 @@ Return
 F6:: ; hotkey to initiate mounting sparrow after firing enough rounds to initiate delayed combustion of sparrow, move away from the sparrow just far enough to get ride prompt while aiming at the sparrow before initiating
     {
     Send, {N down} ; interact/mount sparrow secondary keybind
-    Sleep, 10
+    Sleep, 5
     Send, {Click Down}
-    Sleep, 370 ; this timer controls how many bullets are fired before mounting
+    Sleep, 375 ; this timer controls how many bullets are fired before mounting
     Send, {Click Up}
     Sleep, 120 ; time required to complete the ride prompt (500-timer on line 23+25)
     Send, {N up} ; interact/mount sparrow secondary keybind
